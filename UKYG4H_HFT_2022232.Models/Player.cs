@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace UKYG4H_HFT_2022232.Models
 {
-    internal class Player
+    public class Player
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -17,6 +17,7 @@ namespace UKYG4H_HFT_2022232.Models
         public int Age { get; set; }
         public int Salary { get; set; }
         public string Position { get; set; }
+        [ForeignKey(nameof(Team))]
         public int TeamId { get; set; }
         [NotMapped]
         public virtual Team Team { get; set; }

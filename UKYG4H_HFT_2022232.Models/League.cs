@@ -13,9 +13,9 @@ namespace UKYG4H_HFT_2022232.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        string FantasyName { get; set; }
-        string Country { get; set; }
-        bool HasVAR { get; set; }
+        public string FantasyName { get; set; }
+        public string Country { get; set; }
+        public bool HasVAR { get; set; }
         [NotMapped]
         public virtual ICollection<Team> Teams { get; set; }
 

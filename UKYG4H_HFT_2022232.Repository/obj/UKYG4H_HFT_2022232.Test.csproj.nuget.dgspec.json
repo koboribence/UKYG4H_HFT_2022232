@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kobor\\source\\repos\\UKYG4H_HFT_2022232\\UKYG4H_HFT_2022232.Repository\\UKYG4H_HFT_2022232.Repository.csproj": {}
+    "C:\\Users\\kobor\\source\\repos\\UKYG4H_HFT_2022232\\UKYG4H_HFT_2022232.Test\\UKYG4H_HFT_2022232.Test.csproj": {}
   },
   "projects": {
     "C:\\Users\\kobor\\source\\repos\\UKYG4H_HFT_2022232\\UKYG4H_HFT_2022232.Models\\UKYG4H_HFT_2022232.Models.csproj": {
@@ -63,12 +63,12 @@
         }
       }
     },
-    "C:\\Users\\kobor\\source\\repos\\UKYG4H_HFT_2022232\\UKYG4H_HFT_2022232.Repository\\UKYG4H_HFT_2022232.Repository.csproj": {
+    "C:\\Users\\kobor\\source\\repos\\UKYG4H_HFT_2022232\\UKYG4H_HFT_2022232.Test\\UKYG4H_HFT_2022232.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kobor\\source\\repos\\UKYG4H_HFT_2022232\\UKYG4H_HFT_2022232.Repository\\UKYG4H_HFT_2022232.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\kobor\\source\\repos\\UKYG4H_HFT_2022232\\UKYG4H_HFT_2022232.Test\\UKYG4H_HFT_2022232.Test.csproj",
         "projectName": "UKYG4H_HFT_2022232.Repository",
-        "projectPath": "C:\\Users\\kobor\\source\\repos\\UKYG4H_HFT_2022232\\UKYG4H_HFT_2022232.Repository\\UKYG4H_HFT_2022232.Repository.csproj",
+        "projectPath": "C:\\Users\\kobor\\source\\repos\\UKYG4H_HFT_2022232\\UKYG4H_HFT_2022232.Test\\UKYG4H_HFT_2022232.Test.csproj",
         "packagesPath": "C:\\Users\\kobor\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\kobor\\source\\repos\\UKYG4H_HFT_2022232\\UKYG4H_HFT_2022232.Repository\\obj\\",
         "projectStyle": "PackageReference",
@@ -106,24 +106,6 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.17, )"
-            },
-            "Microsoft.EntityFrameworkCore.Proxies": {
-              "target": "Package",
-              "version": "[5.0.17, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[5.0.17, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "target": "Package",
-              "version": "[5.0.17, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

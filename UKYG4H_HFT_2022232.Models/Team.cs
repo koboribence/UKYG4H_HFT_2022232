@@ -8,13 +8,14 @@ using System.Threading.Tasks;
 
 namespace UKYG4H_HFT_2022232.Models
 {
-    internal class Team
+    public class Team
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        string Id { get; set; }
-        string Name { get; set; }
-        int LeagueId { get; set; }
+        public string Id { get; set; }
+        public string Name { get; set; }
+        [ForeignKey(nameof(League))]
+        public int LeagueId { get; set; }
         [NotMapped]
         public virtual League League { get; set; }
         [NotMapped]
