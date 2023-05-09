@@ -1,0 +1,12 @@
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Models\bin\Debug\net5.0\UKYG4H_HFT_2022232.Models.deps.json
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Models\bin\Debug\net5.0\UKYG4H_HFT_2022232.Models.dll
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Models\bin\Debug\net5.0\UKYG4H_HFT_2022232.Models.pdb
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Models\obj\Debug\net5.0\UKYG4H_HFT_2022232.Models.csproj.AssemblyReference.cache
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Models\obj\Debug\net5.0\UKYG4H_HFT_2022232.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Models\obj\Debug\net5.0\UKYG4H_HFT_2022232.Models.AssemblyInfoInputs.cache
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Models\obj\Debug\net5.0\UKYG4H_HFT_2022232.Models.AssemblyInfo.cs
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Models\obj\Debug\net5.0\UKYG4H_HFT_2022232.Models.csproj.CoreCompileInputs.cache
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Models\obj\Debug\net5.0\UKYG4H_HFT_2022232.Models.dll
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Models\obj\Debug\net5.0\refint\UKYG4H_HFT_2022232.Models.dll
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Models\obj\Debug\net5.0\UKYG4H_HFT_2022232.Models.pdb
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Models\obj\Debug\net5.0\ref\UKYG4H_HFT_2022232.Models.dll

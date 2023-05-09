@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace UKYG4H_HFT_2022232.Models
 {
-    internal class League
+    public class League
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

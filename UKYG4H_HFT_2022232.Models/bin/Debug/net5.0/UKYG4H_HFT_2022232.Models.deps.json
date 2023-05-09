@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "UKYG4H_HFT_2022232.Models/1.0.0": {
+        "runtime": {
+          "UKYG4H_HFT_2022232.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UKYG4H_HFT_2022232.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

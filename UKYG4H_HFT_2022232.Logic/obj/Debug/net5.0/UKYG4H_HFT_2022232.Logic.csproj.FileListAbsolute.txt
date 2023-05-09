@@ -1,0 +1,17 @@
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Logic\bin\Debug\net5.0\UKYG4H_HFT_2022232.Logic.deps.json
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Logic\bin\Debug\net5.0\UKYG4H_HFT_2022232.Logic.dll
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Logic\bin\Debug\net5.0\UKYG4H_HFT_2022232.Logic.pdb
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Logic\bin\Debug\net5.0\UKYG4H_HFT_2022232.Models.dll
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Logic\bin\Debug\net5.0\UKYG4H_HFT_2022232.Repository.dll
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Logic\bin\Debug\net5.0\UKYG4H_HFT_2022232.Models.pdb
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Logic\bin\Debug\net5.0\UKYG4H_HFT_2022232.Repository.pdb
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Logic\obj\Debug\net5.0\UKYG4H_HFT_2022232.Logic.csproj.AssemblyReference.cache
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Logic\obj\Debug\net5.0\UKYG4H_HFT_2022232.Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Logic\obj\Debug\net5.0\UKYG4H_HFT_2022232.Logic.AssemblyInfoInputs.cache
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Logic\obj\Debug\net5.0\UKYG4H_HFT_2022232.Logic.AssemblyInfo.cs
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Logic\obj\Debug\net5.0\UKYG4H_HFT_2022232.Logic.csproj.CoreCompileInputs.cache
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Logic\obj\Debug\net5.0\UKYG4H_HFT_2022232.Logic.csproj.CopyComplete
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Logic\obj\Debug\net5.0\UKYG4H_HFT_2022232.Logic.dll
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Logic\obj\Debug\net5.0\refint\UKYG4H_HFT_2022232.Logic.dll
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Logic\obj\Debug\net5.0\UKYG4H_HFT_2022232.Logic.pdb
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Logic\obj\Debug\net5.0\ref\UKYG4H_HFT_2022232.Logic.dll

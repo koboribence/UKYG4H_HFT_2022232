@@ -12,7 +12,7 @@ namespace UKYG4H_HFT_2022232.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public string Id { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
         [ForeignKey(nameof(League))]
         public int LeagueId { get; set; }
