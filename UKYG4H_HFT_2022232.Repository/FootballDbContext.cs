@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore.Internal;
 using Microsoft.EntityFrameworkCore.Migrations.Operations;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using UKYG4H_HFT_2022232.Models;
 
 namespace UKYG4H_HFT_2022232.Repository
@@ -14,11 +15,11 @@ namespace UKYG4H_HFT_2022232.Repository
         public DbSet<Player> Players { get; set; }
         public FootballDbContext()
         {
-            Database.EnsureCreated();
+            this.Database.EnsureCreated();
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("").UseLazyLoadingProxies();
+            optionsBuilder.UseSqlServer(@"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Repository\FootballLeagues.mdf; Integrated Security = True");
             base.OnConfiguring(optionsBuilder);
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)

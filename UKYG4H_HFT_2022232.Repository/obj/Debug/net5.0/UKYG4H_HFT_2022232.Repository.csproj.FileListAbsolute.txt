@@ -16,3 +16,5 @@ C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Repository\obj
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Repository\obj\Debug\net5.0\UKYG4H_HFT_2022232.Repository.pdb
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Repository\obj\Debug\net5.0\UKYG4H_HFT_2022232.Repository.genruntimeconfig.cache
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Repository\obj\Debug\net5.0\ref\UKYG4H_HFT_2022232.Repository.dll
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Repository\bin\Debug\net5.0\FootballLeagues.mdf
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Repository\bin\Debug\net5.0\FootballLeagues_log.ldf
