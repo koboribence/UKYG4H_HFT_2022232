@@ -7,7 +7,7 @@ using UKYG4H_HFT_2022232.Models;
 
 namespace UKYG4H_HFT_2022232.Repository
 {
-    internal interface IPlayerRepository
+    public interface IPlayerRepository
     {
         void Create(Player player);
         Player Read(int id);

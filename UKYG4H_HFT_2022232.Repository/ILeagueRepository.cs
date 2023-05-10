@@ -7,7 +7,7 @@ using UKYG4H_HFT_2022232.Models;
 
 namespace UKYG4H_HFT_2022232.Repository
 {
-    internal interface ILeagueRepository
+    public interface ILeagueRepository
     {
         void Create(League league);
         League Read(int id);
