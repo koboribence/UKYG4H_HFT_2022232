@@ -7,38 +7,25 @@ using UKYG4H_HFT_2022232.Models;
 
 namespace UKYG4H_HFT_2022232.Repository
 {
-    public class LeagueRepository : ILeagueRepository
+    public class LeagueRepository : Repository<League>, IRepository<League>
     {
-        FootballDbContext context;
-        public LeagueRepository(FootballDbContext context )
-        {
-            this.context = context; 
+        public LeagueRepository(FootballDbContext ctx): base(ctx) 
+        { 
+
         }
-        public void Create(League league)
+        public override League Read(int id)
         {
-            this.context.Leagues.Add(league);
-            this.context.SaveChanges();
+            return this.ctx.Leagues.First(t=> t.Id == id);  
         }
-        public void Delete (int id)
+        public override void Update(League item)
         {
-            this.context.Leagues.Remove(Read(id));
-            this.context.SaveChanges();
+            var old  = Read(item.Id);
+            foreach (var p in old.GetType().GetProperties())
+            {
+                p.SetValue(old, p.GetValue(item));
+            }
+            ctx.SaveChanges();
         }
-        public League Read(int id)
-        {
-            return this.context.Leagues.FirstOrDefault(t => t.Id == id);    //null-al térünk vissza, Logic-ban kezeljük majd
-        }
-        public IQueryable<League> ReadAll()
-        {
-            return this.context.Leagues;
-        }
-        public void Update(League league) 
-        {
-            var oldleague = Read(league.Id);
-            oldleague.FantasyName = league.FantasyName;
-            oldleague.Country = league.Country;
-            oldleague.HasVAR = league.HasVAR;
-            this.context.SaveChanges();
-        }
+
     }
 }
