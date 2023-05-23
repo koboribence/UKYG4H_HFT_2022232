@@ -7,7 +7,7 @@ using UKYG4H_HFT_2022232.Models;
 
 namespace UKYG4H_HFT_2022232.Endpoint.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class LeagueController : ControllerBase
     {

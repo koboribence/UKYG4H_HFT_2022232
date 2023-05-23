@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace UKYG4H_HFT_2022232.Models
@@ -17,6 +18,7 @@ namespace UKYG4H_HFT_2022232.Models
         public string Country { get; set; }
         public bool HasVAR { get; set; }
         [NotMapped]
+        [JsonIgnore]
         public virtual ICollection<Team> Teams { get; set; }
 
         public League()

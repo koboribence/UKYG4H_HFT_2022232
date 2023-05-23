@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace UKYG4H_HFT_2022232.Models
@@ -18,8 +19,10 @@ namespace UKYG4H_HFT_2022232.Models
         public int LeagueId { get; set; }
         public bool HasYouthSquad { get; set; }
         [NotMapped]
+        [JsonIgnore]
         public virtual League League { get; set; }
         [NotMapped]
+        [JsonIgnore]
         public virtual ICollection<Player> Players { get; set; }
 
         public Team()

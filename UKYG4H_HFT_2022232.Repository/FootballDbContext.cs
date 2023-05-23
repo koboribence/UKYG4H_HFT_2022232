@@ -39,8 +39,8 @@ namespace UKYG4H_HFT_2022232.Repository
             var leagues = new List<League>()
             {
                 new League(){Id= 1, FantasyName = "OTP Bank Liga", Country = "Hungary", HasVAR=true},
-                //new League(){Id = 2, FantasyName = "Ekstraklasa", Country = "Poland", HasVAR = false },
-                //new League(){Id= 3, FantasyName = "LaLiga", Country = "Spain", HasVAR=true}
+                new League(){Id = 2, FantasyName = "Ekstraklasa", Country = "Poland", HasVAR = false },
+                new League(){Id= 3, FantasyName = "LaLiga", Country = "Spain", HasVAR=true}
             };
             modelBuilder.Entity<League>().HasData(leagues);
 
@@ -48,13 +48,13 @@ namespace UKYG4H_HFT_2022232.Repository
             {
                 new Team(){Id=1, LeagueId = 1, Name = "Ferencvárosi TC"},
                 new Team(){Id=2, LeagueId = 1, Name = "Újpesti FC"},
-                //new Team(){Id=3, LeagueId = 1, Name = "Kecskeméti TE"},
-                //new Team(){Id=4, LeagueId = 2, Name = "Legia Warszawa"},
-                //new Team(){Id=5, LeagueId = 2, Name = "Lech Poznan"},
-                //new Team(){Id=6, LeagueId = 2, Name = "Cracovia"},
-                //new Team(){Id=7, LeagueId = 3, Name = "FC Barcelona"},
-                //new Team(){Id=8, LeagueId = 3, Name = "Real Madrid CF"},
-                //new Team(){Id=9, LeagueId = 3, Name = "Valencia CF"},
+                new Team(){Id=3, LeagueId = 1, Name = "Kecskeméti TE"},
+                new Team(){Id=4, LeagueId = 2, Name = "Legia Warszawa"},
+                new Team(){Id=5, LeagueId = 2, Name = "Lech Poznan"},
+                new Team(){Id=6, LeagueId = 2, Name = "Cracovia"},
+                new Team(){Id=7, LeagueId = 3, Name = "FC Barcelona"},
+                new Team(){Id=8, LeagueId = 3, Name = "Real Madrid CF"},
+                new Team(){Id=9, LeagueId = 3, Name = "Valencia CF"},
             };
             modelBuilder.Entity<Team>().HasData(teams);
             var players = new List<Player>()
