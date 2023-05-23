@@ -43,7 +43,13 @@ namespace UKYG4H_HFT_2022232.Client
             }
             if (entity == "Team")
             {
-
+                Console.Write("Team name: ");
+                string name = Console.ReadLine();
+                Console.Write("Team league ID: ");
+                int leagueId = int.Parse(Console.ReadLine());
+                Console.Write("Team has youth squad?(true/false): ");
+                bool hys = bool.Parse(Console.ReadLine());
+                rest.Post(new Team() { Name = name, LeagueId = leagueId, HasYouthSquad = hys}, "team");
             }
             Console.ReadLine();
         }
