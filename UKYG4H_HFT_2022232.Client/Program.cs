@@ -88,8 +88,24 @@ namespace UKYG4H_HFT_2022232.Client
         }
         static void Delete(string entity)
         {
-            Console.WriteLine(entity + " delete");
-            Console.ReadLine();
+            if (entity == "League")
+            {
+                Console.WriteLine("League ID to delete: ");
+                int id = int.Parse(Console.ReadLine());
+                rest.Delete(id, "league");
+            }
+            if (entity == "Team")
+            {
+                Console.WriteLine("Team ID to delete: ");
+                int id = int.Parse(Console.ReadLine());
+                rest.Delete(id, "team");
+            }
+            if (entity == "Player")
+            {
+                Console.WriteLine("Player ID to delete: ");
+                int id = int.Parse(Console.ReadLine());
+                rest.Delete(id, "player");
+            }
         }
 
         static void Main(string[] args)
