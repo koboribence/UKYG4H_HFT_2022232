@@ -9,6 +9,8 @@
     <ProjectReference Include="..\UKYG4H_HFT_2022232.Logic\UKYG4H_HFT_2022232.Logic.csproj" />
     <ProjectReference Include="..\UKYG4H_HFT_2022232.Models\UKYG4H_HFT_2022232.Models.csproj" />
     <ProjectReference Include="..\UKYG4H_HFT_2022232.Repository\UKYG4H_HFT_2022232.Repository.csproj" />
+    <PackageReference Include="ConsoleMenu-simple" Version="2.6.0" />
+	  <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
   </ItemGroup>
 
 </Project>

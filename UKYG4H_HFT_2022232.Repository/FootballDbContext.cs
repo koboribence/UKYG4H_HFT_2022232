@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using UKYG4H_HFT_2022232.Models;
+using Microsoft.EntityFrameworkCore.InMemory;
 
 namespace UKYG4H_HFT_2022232.Repository
 {
@@ -19,7 +20,7 @@ namespace UKYG4H_HFT_2022232.Repository
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Repository\FootballLeagues.mdf; Integrated Security = True");
+            optionsBuilder.UseInMemoryDatabase("fbdb").UseLazyLoadingProxies();
             base.OnConfiguring(optionsBuilder);
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)

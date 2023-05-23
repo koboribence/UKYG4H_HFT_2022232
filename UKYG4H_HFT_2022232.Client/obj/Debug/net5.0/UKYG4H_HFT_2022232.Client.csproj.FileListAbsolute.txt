@@ -73,3 +73,7 @@ C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Client\bin\Deb
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Client\bin\Debug\net5.0\UKYG4H_HFT_2022232.Repository.pdb
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Client\bin\Debug\net5.0\UKYG4H_HFT_2022232.Logic.dll
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Client\bin\Debug\net5.0\UKYG4H_HFT_2022232.Logic.pdb
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Client\bin\Debug\net5.0\ConsoleMenu.dll
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Client\bin\Debug\net5.0\System.Net.Http.Formatting.dll
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Client\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Client\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FiJvPfRTTe4ZDgmEbfvR1ZWED5ktMMvyFDHZ5vYeU/DIfR7/nhETo9Fs1sJn6UJtTaE3JQptzELlpA7pfaxBrw==",
+  "dgSpecHash": "KJp/dYWN8N1sCBz5P22yRaNkvNlgL/6KFBrhovz09HiLG38ICW6S9/25Ilo9t4BM3iEs5TsYXF5Lz/3Oo23eNg==",
   "success": true,
   "projectFilePath": "C:\\Users\\kobor\\source\\repos\\UKYG4H_HFT_2022232\\UKYG4H_HFT_2022232.Test\\UKYG4H_HFT_2022232.Test.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\kobor\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.17\\microsoft.entityframeworkcore.abstractions.5.0.17.nupkg.sha512",
     "C:\\Users\\kobor\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.17\\microsoft.entityframeworkcore.analyzers.5.0.17.nupkg.sha512",
     "C:\\Users\\kobor\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.17\\microsoft.entityframeworkcore.design.5.0.17.nupkg.sha512",
+    "C:\\Users\\kobor\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\5.0.17\\microsoft.entityframeworkcore.inmemory.5.0.17.nupkg.sha512",
     "C:\\Users\\kobor\\.nuget\\packages\\microsoft.entityframeworkcore.proxies\\5.0.17\\microsoft.entityframeworkcore.proxies.5.0.17.nupkg.sha512",
     "C:\\Users\\kobor\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.17\\microsoft.entityframeworkcore.relational.5.0.17.nupkg.sha512",
     "C:\\Users\\kobor\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.17\\microsoft.entityframeworkcore.sqlserver.5.0.17.nupkg.sha512",
