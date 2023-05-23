@@ -2448,6 +2448,20 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "UKYG4H_HFT_2022232.Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "UKYG4H_HFT_2022232.Models": "1.0.0",
+          "UKYG4H_HFT_2022232.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UKYG4H_HFT_2022232.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UKYG4H_HFT_2022232.Logic.dll": {}
+        }
+      },
       "UKYG4H_HFT_2022232.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -7736,6 +7750,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "UKYG4H_HFT_2022232.Logic/1.0.0": {
+      "type": "project",
+      "path": "../UKYG4H_HFT_2022232.Logic/UKYG4H_HFT_2022232.Logic.csproj",
+      "msbuildProject": "../UKYG4H_HFT_2022232.Logic/UKYG4H_HFT_2022232.Logic.csproj"
+    },
     "UKYG4H_HFT_2022232.Models/1.0.0": {
       "type": "project",
       "path": "../UKYG4H_HFT_2022232.Models/UKYG4H_HFT_2022232.Models.csproj",
@@ -7749,6 +7768,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "UKYG4H_HFT_2022232.Logic >= 1.0.0",
       "UKYG4H_HFT_2022232.Models >= 1.0.0",
       "UKYG4H_HFT_2022232.Repository >= 1.0.0"
     ]
@@ -7785,6 +7805,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\kobor\\source\\repos\\UKYG4H_HFT_2022232\\UKYG4H_HFT_2022232.Logic\\UKYG4H_HFT_2022232.Logic.csproj": {
+              "projectPath": "C:\\Users\\kobor\\source\\repos\\UKYG4H_HFT_2022232\\UKYG4H_HFT_2022232.Logic\\UKYG4H_HFT_2022232.Logic.csproj"
+            },
             "C:\\Users\\kobor\\source\\repos\\UKYG4H_HFT_2022232\\UKYG4H_HFT_2022232.Models\\UKYG4H_HFT_2022232.Models.csproj": {
               "projectPath": "C:\\Users\\kobor\\source\\repos\\UKYG4H_HFT_2022232\\UKYG4H_HFT_2022232.Models\\UKYG4H_HFT_2022232.Models.csproj"
             },

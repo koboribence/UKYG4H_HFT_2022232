@@ -15,3 +15,5 @@ C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Logic\obj\Debu
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Logic\obj\Debug\net5.0\refint\UKYG4H_HFT_2022232.Logic.dll
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Logic\obj\Debug\net5.0\UKYG4H_HFT_2022232.Logic.pdb
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Logic\obj\Debug\net5.0\ref\UKYG4H_HFT_2022232.Logic.dll
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Logic\bin\Debug\net5.0\FootballLeagues.mdf
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Logic\bin\Debug\net5.0\FootballLeagues_log.ldf

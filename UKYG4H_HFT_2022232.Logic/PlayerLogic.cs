@@ -8,7 +8,7 @@ using UKYG4H_HFT_2022232.Repository;
 
 namespace UKYG4H_HFT_2022232.Logic
 {
-    public class PlayerLogic
+    public class PlayerLogic : IPlayerLogic
     {
         IRepository<Player> repository;
         public PlayerLogic(IRepository<Player> repository)
@@ -60,7 +60,7 @@ namespace UKYG4H_HFT_2022232.Logic
                 .Where(t => t.TeamId == teamId)
                 .OrderBy(t => t.Age).First().Name;
         }
-        public IEnumerable<Player> GetPlayersYoungerThanXINTeam(int x,int teamId)
+        public IEnumerable<Player> GetPlayersYoungerThanXINTeam(int x, int teamId)
         {
             return repository.ReadAll()
                 .Where(t => t.TeamId == teamId)

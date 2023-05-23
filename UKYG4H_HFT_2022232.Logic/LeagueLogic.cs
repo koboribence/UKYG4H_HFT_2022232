@@ -8,7 +8,7 @@ using UKYG4H_HFT_2022232.Repository;
 
 namespace UKYG4H_HFT_2022232.Logic
 {
-    public class LeagueLogic
+    public class LeagueLogic : ILeagueLogic
     {
         IRepository<League> repository;
         public LeagueLogic(IRepository<League> repository)

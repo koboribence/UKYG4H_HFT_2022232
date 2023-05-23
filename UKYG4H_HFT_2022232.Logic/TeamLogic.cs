@@ -8,7 +8,7 @@ using UKYG4H_HFT_2022232.Repository;
 
 namespace UKYG4H_HFT_2022232.Logic
 {
-    public class TeamLogic
+    public class TeamLogic : ITeamLogic
     {
         IRepository<Team> repository;
         public TeamLogic(IRepository<Team> repository)
@@ -47,5 +47,6 @@ namespace UKYG4H_HFT_2022232.Logic
         {
             this.repository.Update(item);
         }
+
     }
 }
