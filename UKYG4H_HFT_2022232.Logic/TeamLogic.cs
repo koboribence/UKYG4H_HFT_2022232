@@ -56,7 +56,6 @@ namespace UKYG4H_HFT_2022232.Logic
                        Name = g.Key,
                        YouthSquadsInLeague = g.Count(t => t.HasYouthSquad)
                    };
-
         }
     }
     public class YouthSquadInfo
@@ -66,5 +65,11 @@ namespace UKYG4H_HFT_2022232.Logic
         }
         public string Name { get; set; }
         public int YouthSquadsInLeague { get; set; }
+
+        public YouthSquadInfo(string name, int youthSquadsInLeague)
+        {
+            Name = name;
+            YouthSquadsInLeague = youthSquadsInLeague;
+        }
     }
 }

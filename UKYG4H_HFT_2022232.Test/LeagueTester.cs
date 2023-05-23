@@ -29,11 +29,38 @@ namespace UKYG4H_HFT_2022232.Test
             llog = new LeagueLogic(mockLeagueRepository.Object);
         }
         [Test]
-        public void LeagueCreateTest()
+        public void LeagueCreateTestCorrect()
         {
             var l = new League(13, " Liga", "Hungary", false);
             llog.Create(l);
             mockLeagueRepository.Verify(a => a.Create(l), Times.Once());
+        }
+        [Test]
+        public void LeagueCreateTestIncorrect()
+        {
+            var l = new League(-2, "P Liga", "Greece", false);
+            try
+            {
+                llog.Create(l);
+            }
+            catch (ArgumentException)
+            {
+            }
+            mockLeagueRepository.Verify(a => a.Create(l), Times.Never());
+        }
+        [Test]
+        public void LeagueReadTest()
+        {
+
+            try
+            {
+                llog.Read(10);
+            }
+            catch
+            {
+
+            }
+            mockLeagueRepository.Verify(a => a.Read(10), Times.Once());
         }
     }
 }
