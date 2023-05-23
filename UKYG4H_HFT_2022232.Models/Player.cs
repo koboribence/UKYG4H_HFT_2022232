@@ -15,6 +15,7 @@ namespace UKYG4H_HFT_2022232.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public int Age { get; set; }
+        public bool RightFooted { get; set; }
         public int Salary { get; set; }
         public string Position { get; set; }
         [ForeignKey(nameof(Team))]

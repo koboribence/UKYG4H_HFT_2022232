@@ -16,6 +16,7 @@ namespace UKYG4H_HFT_2022232.Models
         public string Name { get; set; }
         [ForeignKey(nameof(League))]
         public int LeagueId { get; set; }
+        public bool HasYouthSquad { get; set; }
         [NotMapped]
         public virtual League League { get; set; }
         [NotMapped]
