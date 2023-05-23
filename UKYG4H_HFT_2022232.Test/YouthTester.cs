@@ -66,5 +66,10 @@ namespace UKYG4H_HFT_2022232.Test
         {
             Assert.AreEqual(ysi.Name, "Great League");
         }
+        [Test]
+        public void YouthSquadsFantasyNameTestWrong()
+        {
+            Assert.AreNotEqual(ysi.Name, "Not Great League");
+        }
     }
 }

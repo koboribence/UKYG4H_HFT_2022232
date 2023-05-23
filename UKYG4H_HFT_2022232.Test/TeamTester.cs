@@ -35,8 +35,5 @@ namespace UKYG4H_HFT_2022232.Test
             tl.Create(t);
             mockTeamRepository.Verify(a=> a.Create(t),Times.Once());
         }
-        public void UpdateTest()
-        {
-        }
     }
 }

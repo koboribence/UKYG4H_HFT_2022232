@@ -54,11 +54,11 @@ namespace UKYG4H_HFT_2022232.Logic
                 .Where(t => t.TeamId == teamId)
                 .Average(t => t.Salary);
         }
-        public string GetYoungestPlayerNameInTeam(int teamId)
+        public int GetYoungestPlayerAgeInTeam(int teamId)
         {
             return repository.ReadAll()
                 .Where(t => t.TeamId == teamId)
-                .OrderBy(t => t.Age).First().Name;
+                .OrderBy(t => t.Age).First().Age;
         }
         public IEnumerable<Player> GetPlayersYoungerThanXINTeam(int x, int teamId)
         {
