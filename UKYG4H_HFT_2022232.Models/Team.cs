@@ -21,5 +21,16 @@ namespace UKYG4H_HFT_2022232.Models
         public virtual League League { get; set; }
         [NotMapped]
         public virtual ICollection<Player> Players { get; set; }
+
+        public Team()
+        {
+        }
+        public Team(int id, string name, int leagueId, bool hasYouthSquad)
+        {
+            Id = id;
+            Name = name;
+            LeagueId = leagueId;
+            HasYouthSquad = hasYouthSquad;
+        }
     }
 }
