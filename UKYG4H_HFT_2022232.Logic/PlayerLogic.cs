@@ -65,7 +65,12 @@ namespace UKYG4H_HFT_2022232.Logic
             return repository.ReadAll()
                 .Where(t => t.TeamId == teamId)
                 .Where(t => t.Age < x);
-
+        }
+        public int GetYounsterSalaryInfo()
+        {
+            return repository.ReadAll()
+                .Where(t => t.Age > 20)
+                .Sum(t => t.Salary);
         }
     }
 }

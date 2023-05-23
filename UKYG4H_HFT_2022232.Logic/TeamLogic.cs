@@ -47,6 +47,24 @@ namespace UKYG4H_HFT_2022232.Logic
         {
             this.repository.Update(item);
         }
+        public IEnumerable<YouthSquadInfo> GetYouthSquadInfo()
+        {
+            return from x in this.repository.ReadAll()
+                   group x by x.League.FantasyName into g
+                   select new YouthSquadInfo()
+                   {
+                       Name = g.Key,
+                       YouthSquadsInLeague = g.Count(t => t.HasYouthSquad)
+                   };
 
+        }
+    }
+    public class YouthSquadInfo
+    {
+        public YouthSquadInfo()
+        {
+        }
+        public string Name { get; set; }
+        public int YouthSquadsInLeague { get; set; }
     }
 }
