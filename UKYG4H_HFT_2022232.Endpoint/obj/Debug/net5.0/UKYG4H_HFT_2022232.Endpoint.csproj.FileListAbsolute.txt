@@ -1,6 +1,8 @@
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\bin\Debug\net5.0\appsettings.json
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\bin\Debug\net5.0\UKYG4H_HFT_2022232.Endpoint.exe
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\bin\Debug\net5.0\FootballLeagues.mdf
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\bin\Debug\net5.0\FootballLeagues_log.ldf
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\bin\Debug\net5.0\UKYG4H_HFT_2022232.Endpoint.deps.json
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\bin\Debug\net5.0\UKYG4H_HFT_2022232.Endpoint.runtimeconfig.json
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\bin\Debug\net5.0\UKYG4H_HFT_2022232.Endpoint.runtimeconfig.dev.json
@@ -22,7 +24,11 @@ C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\bin\D
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\bin\Debug\net5.0\Microsoft.OpenApi.dll
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
@@ -51,6 +57,7 @@ C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\obj\D
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\obj\Debug\net5.0\UKYG4H_HFT_2022232.Endpoint.AssemblyInfoInputs.cache
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\obj\Debug\net5.0\UKYG4H_HFT_2022232.Endpoint.AssemblyInfo.cs
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\obj\Debug\net5.0\UKYG4H_HFT_2022232.Endpoint.csproj.CoreCompileInputs.cache
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\obj\Debug\net5.0\UKYG4H_HFT_2022232.Endpoint.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\obj\Debug\net5.0\UKYG4H_HFT_2022232.Endpoint.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\obj\Debug\net5.0\scopedcss\bundle\UKYG4H_HFT_2022232.Endpoint.styles.css
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\obj\Debug\net5.0\staticwebassets\UKYG4H_HFT_2022232.Endpoint.StaticWebAssets.Manifest.cache
@@ -66,5 +73,3 @@ C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\obj\D
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\obj\Debug\net5.0\UKYG4H_HFT_2022232.Endpoint.pdb
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\obj\Debug\net5.0\UKYG4H_HFT_2022232.Endpoint.genruntimeconfig.cache
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\obj\Debug\net5.0\ref\UKYG4H_HFT_2022232.Endpoint.dll
-C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\bin\Debug\net5.0\FootballLeagues.mdf
-C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\bin\Debug\net5.0\FootballLeagues_log.ldf
