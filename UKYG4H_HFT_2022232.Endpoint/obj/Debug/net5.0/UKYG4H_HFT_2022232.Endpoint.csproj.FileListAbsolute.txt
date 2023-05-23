@@ -66,3 +66,5 @@ C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\obj\D
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\obj\Debug\net5.0\UKYG4H_HFT_2022232.Endpoint.pdb
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\obj\Debug\net5.0\UKYG4H_HFT_2022232.Endpoint.genruntimeconfig.cache
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\obj\Debug\net5.0\ref\UKYG4H_HFT_2022232.Endpoint.dll
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\bin\Debug\net5.0\FootballLeagues.mdf
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Endpoint\bin\Debug\net5.0\FootballLeagues_log.ldf

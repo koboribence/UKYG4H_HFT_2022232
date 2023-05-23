@@ -19,6 +19,10 @@ namespace UKYG4H_HFT_2022232.Models
         [NotMapped]
         public virtual ICollection<Team> Teams { get; set; }
 
+        public League()
+        {
+        }
+
         public League(int id, string fantasyName, string country, bool hasVAR)
         {
             Id = id;

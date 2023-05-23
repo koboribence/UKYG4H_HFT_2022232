@@ -23,6 +23,9 @@ namespace UKYG4H_HFT_2022232.Models
         [NotMapped]
         public virtual Team Team { get; set; }
 
+        public Player()
+        {
+        }
         public Player(int id, string name, int age, bool rightFooted, int salary, string position, int teamId)
         {
             Id = id;
