@@ -8,7 +8,7 @@ namespace UKYG4H_HFT_2022232.Repository
 {
     public abstract class Repository<T> : IRepository<T> where T : class
     {
-        protected FootballDbContext ctx;
+        public FootballDbContext ctx;
         public Repository(FootballDbContext ctx)
         {
             this.ctx = ctx;
