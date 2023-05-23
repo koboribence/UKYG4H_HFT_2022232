@@ -47,5 +47,25 @@ namespace UKYG4H_HFT_2022232.Logic
         {
             this.repository.Update(item);
         }
+        public double GetAverageSalaryInTeam(int teamId)
+        {
+            return this.repository
+                .ReadAll()
+                .Where(t => t.TeamId == teamId)
+                .Average(t => t.Salary);
+        }
+        public string GetYoungestPlayerNameInTeam(int teamId)
+        {
+            return repository.ReadAll()
+                .Where(t => t.TeamId == teamId)
+                .OrderBy(t => t.Age).First().Name;
+        }
+        public IEnumerable<Player> GetPlayersYoungerThanXINTeam(int x,int teamId)
+        {
+            return repository.ReadAll()
+                .Where(t => t.TeamId == teamId)
+                .Where(t => t.Age < x);
+
+        }
     }
 }
