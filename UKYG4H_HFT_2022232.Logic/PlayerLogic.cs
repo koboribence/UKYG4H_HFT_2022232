@@ -47,23 +47,9 @@ namespace UKYG4H_HFT_2022232.Logic
         {
             this.repository.Update(item);
         }
-        public double GetAverageSalaryInTeam(int teamId)
-        {
-            return this.repository
-                .ReadAll()
-                .Where(t => t.TeamId == teamId)
-                .Average(t => t.Salary);
-        }
-        public int GetYoungestPlayerAgeInTeam(int teamId)
+        public IEnumerable<Player> GetPlayersYoungerThanX(int x)
         {
             return repository.ReadAll()
-                .Where(t => t.TeamId == teamId)
-                .OrderBy(t => t.Age).First().Age;
-        }
-        public IEnumerable<Player> GetPlayersYoungerThanXINTeam(int x, int teamId)
-        {
-            return repository.ReadAll()
-                .Where(t => t.TeamId == teamId)
                 .Where(t => t.Age < x);
         }
         public int GetYounsterSalaryInfo()
@@ -71,6 +57,11 @@ namespace UKYG4H_HFT_2022232.Logic
             return repository.ReadAll()
                 .Where(t => t.Age > 20)
                 .Sum(t => t.Salary);
+        }
+        public int GetYoungestPlayerAge()
+        {
+            return repository.ReadAll()
+                .OrderBy(t => t.Age).First().Age;
         }
     }
 }

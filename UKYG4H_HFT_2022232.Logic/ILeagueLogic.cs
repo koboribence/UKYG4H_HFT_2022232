@@ -7,6 +7,7 @@ namespace UKYG4H_HFT_2022232.Logic
     {
         void Create(League item);
         void Delete(int id);
+        IEnumerable<YouthSquadInfo> GetYouthSquadInfo();
         League Read(int id);
         IEnumerable<League> ReadAll();
         void Update(League item);

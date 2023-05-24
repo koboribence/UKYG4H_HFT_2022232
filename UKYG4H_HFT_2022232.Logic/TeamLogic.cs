@@ -47,29 +47,15 @@ namespace UKYG4H_HFT_2022232.Logic
         {
             this.repository.Update(item);
         }
-        public IEnumerable<YouthSquadInfo> GetYouthSquadInfo()
+        public double GetAverageSalaryInTeam(int teamId)
         {
-            return from x in this.repository.ReadAll()
-                   group x by x.League.FantasyName into g
-                   select new YouthSquadInfo()
-                   {
-                       Name = g.Key,
-                       YouthSquadsInLeague = g.Count(t => t.HasYouthSquad)
-                   };
+            var team = this.repository
+            .ReadAll()
+            .FirstOrDefault(t => t.Id == teamId);
+            return team.Players
+            .Select(p => p.Salary)
+            .Average();
         }
     }
-    public class YouthSquadInfo
-    {
-        public YouthSquadInfo()
-        {
-        }
-        public string Name { get; set; }
-        public int YouthSquadsInLeague { get; set; }
 
-        public YouthSquadInfo(string name, int youthSquadsInLeague)
-        {
-            Name = name;
-            YouthSquadsInLeague = youthSquadsInLeague;
-        }
-    }
 }

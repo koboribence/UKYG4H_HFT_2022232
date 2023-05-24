@@ -49,7 +49,7 @@ namespace UKYG4H_HFT_2022232.Test
             tl = new TeamLogic(mockTeamRepository.Object);
             ll = new LeagueLogic(mockLeagueRepository.Object);
             pl = new PlayerLogic(mockPlayerRepository.Object);
-            ysi = new YouthSquadInfo("Great League", 1);
+            ysi = new YouthSquadInfo(1, 1);
         }
         [Test]
         public void YouthSquadsInLeagueTestCorrect()
@@ -64,12 +64,12 @@ namespace UKYG4H_HFT_2022232.Test
         [Test]
         public void YouthSquadsFantasyNameTest()
         {
-            Assert.AreEqual(ysi.Name, "Great League");
+            Assert.AreEqual(ysi.LeagueId,1);
         }
         [Test]
         public void YouthSquadsFantasyNameTestWrong()
         {
-            Assert.AreNotEqual(ysi.Name, "Not Great League");
+            Assert.AreNotEqual(ysi.LeagueId,2);
         }
     }
 }

@@ -22,7 +22,10 @@ namespace UKYG4H_HFT_2022232.Repository
             var old = Read(item.Id);
             foreach (var p in old.GetType().GetProperties())
             {
-                p.SetValue(old, p.GetValue(item));
+                if (p.GetAccessors().FirstOrDefault(t => t.IsVirtual) == null)
+                {
+                    p.SetValue(old, p.GetValue(item));
+                }
             }
             ctx.SaveChanges();
         }

@@ -158,3 +158,4 @@ C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Test\obj\Debug
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Test\obj\Debug\net5.0\UKYG4H_HFT_2022232.Test.pdb
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Test\obj\Debug\net5.0\UKYG4H_HFT_2022232.Test.genruntimeconfig.cache
 C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Test\obj\Debug\net5.0\ref\UKYG4H_HFT_2022232.Test.dll
+C:\Users\kobor\source\repos\UKYG4H_HFT_2022232\UKYG4H_HFT_2022232.Test\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll

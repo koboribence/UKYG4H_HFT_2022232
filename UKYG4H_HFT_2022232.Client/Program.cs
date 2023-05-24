@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using UKYG4H_HFT_2022232.Client;
 using UKYG4H_HFT_2022232.Models;
 
@@ -25,7 +26,7 @@ namespace UKYG4H_HFT_2022232.Client
                 rest.Post(new League() { FantasyName = name, Country = country, HasVAR = hasVar },"league");
 
             }
-            if (entity == "Player")
+            else if (entity == "Player")
             {
                 Console.Write("Player name: ");
                 string name = Console.ReadLine();
@@ -41,7 +42,7 @@ namespace UKYG4H_HFT_2022232.Client
                 int tid = int.Parse(Console.ReadLine());
                 rest.Post(new Player() { Name = name, Age = age, Position= pos, RightFooted=rf, Salary=sal, TeamId = tid}, "player");
             }
-            if (entity == "Team")
+            else if(entity == "Team")
             {
                 Console.Write("Team name: ");
                 string name = Console.ReadLine();
@@ -63,7 +64,7 @@ namespace UKYG4H_HFT_2022232.Client
                     Console.WriteLine("(" +item.Id +")" + item.FantasyName);
                 }
             }
-            if (entity == "Player")
+            else if(entity == "Player")
             {
                 List<Player> leagues = rest.Get<Player>("player");
                 foreach (var item in leagues)
@@ -71,7 +72,7 @@ namespace UKYG4H_HFT_2022232.Client
                     Console.WriteLine(item.Name);
                 }
             }
-            if (entity == "Team")
+            else if(entity == "Team")
             {
                 List<Team> leagues = rest.Get<Team>("team");
                 foreach (var item in leagues)
@@ -83,8 +84,37 @@ namespace UKYG4H_HFT_2022232.Client
         }
         static void Update(string entity)
         {
-            Console.WriteLine(entity + " update");
-            Console.ReadLine();
+            if(entity == "League")
+            {
+                Console.WriteLine("League ID to modify: ");
+                int id = int.Parse(Console.ReadLine());
+                League l = rest.Get<League>(id, "league");
+                Console.WriteLine($"Old name:{l.FantasyName} new name: ");
+                string newName= Console.ReadLine();
+                l.FantasyName = newName;
+                rest.Put(l, "league");
+
+            }
+            else if( entity == "Team")
+            {
+                Console.WriteLine("Team ID to modify: ");
+                int id = int.Parse(Console.ReadLine());
+                Team t = rest.Get<Team>(id, "team");
+                Console.WriteLine($"Old name:{t.Name} new name: ");
+                string newName = Console.ReadLine();
+                t.Name = newName;
+                rest.Put(t, "team");
+            }
+            else if (entity == "Player")
+            {
+                Console.WriteLine("Player ID to modify: ");
+                int id = int.Parse(Console.ReadLine());
+                Player p = rest.Get<Player>(id, "player");
+                Console.WriteLine($"Old name:{p.Name} new name: ");
+                string newName = Console.ReadLine();
+                p.Name = newName;
+                rest.Put(p, "player");
+            }
         }
         static void Delete(string entity)
         {
@@ -94,13 +124,13 @@ namespace UKYG4H_HFT_2022232.Client
                 int id = int.Parse(Console.ReadLine());
                 rest.Delete(id, "league");
             }
-            if (entity == "Team")
+            else if(entity == "Team")
             {
                 Console.WriteLine("Team ID to delete: ");
                 int id = int.Parse(Console.ReadLine());
                 rest.Delete(id, "team");
             }
-            if (entity == "Player")
+            else if (entity == "Player")
             {
                 Console.WriteLine("Player ID to delete: ");
                 int id = int.Parse(Console.ReadLine());

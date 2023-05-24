@@ -7,9 +7,8 @@ namespace UKYG4H_HFT_2022232.Logic
     {
         void Create(Player item);
         void Delete(int id);
-        double GetAverageSalaryInTeam(int teamId);
-        IEnumerable<Player> GetPlayersYoungerThanXINTeam(int x, int teamId);
-        int GetYoungestPlayerAgeInTeam(int teamId);
+        IEnumerable<Player> GetPlayersYoungerThanX(int x);
+        int GetYoungestPlayerAge();
         int GetYounsterSalaryInfo();
         Player Read(int id);
         IEnumerable<Player> ReadAll();

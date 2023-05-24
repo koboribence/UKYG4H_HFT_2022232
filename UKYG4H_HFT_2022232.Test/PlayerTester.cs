@@ -39,7 +39,7 @@ namespace UKYG4H_HFT_2022232.Test
                 new Player(3,"Nagy István",24,true,75000,"Midfilder",3),
             }.AsQueryable());
             pl = new PlayerLogic(mockPlayerRepository.Object);
-            Assert.AreEqual(pl.GetYoungestPlayerAgeInTeam(2),17);
+            Assert.AreEqual(pl.GetYoungestPlayerAge(), 17);
         }
     }
 }
