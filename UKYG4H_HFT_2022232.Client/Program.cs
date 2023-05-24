@@ -189,7 +189,7 @@ namespace UKYG4H_HFT_2022232.Client
                 .Add("Delete", () => Delete("League"))
                 .Add("Update", () => Update("League"))
                 .Add("Youth Squad Info", () => YouthSquadInfo("League"))
-                .Add("Exit", ConsoleMenu.Close);
+                .Add("Exit", ConsoleMenu.Close); 
 
             var teamSubMenu = new ConsoleMenu(args, level: 1)
                 .Add("List", () => List("Team"))

@@ -19,7 +19,7 @@ namespace UKYG4H_HFT_2022232.Models
         public int Salary { get; set; }
         public string Position { get; set; }
         [ForeignKey(nameof(Team))]
-        public int TeamId { get; set; }
+        public int TeamId { get; set;}
         [NotMapped]
         public virtual Team Team { get; set; }
 

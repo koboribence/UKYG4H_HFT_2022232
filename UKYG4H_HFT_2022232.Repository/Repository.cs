@@ -14,7 +14,7 @@ namespace UKYG4H_HFT_2022232.Repository
             this.ctx = ctx;
         }
         public void Create(T item)
-        {
+        { 
             ctx.Set<T>().Add(item);
             ctx.SaveChanges();
         }

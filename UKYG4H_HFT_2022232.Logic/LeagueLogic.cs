@@ -48,7 +48,7 @@ namespace UKYG4H_HFT_2022232.Logic
             this.repository.Update(item);
         }
         public IEnumerable<YouthSquadInfo> GetYouthSquadInfo()
-        {
+        { 
 
             return this.repository.ReadAll()
             .SelectMany(t => t.Teams)
