@@ -47,15 +47,15 @@ namespace UKYG4H_HFT_2022232.Repository
 
             var teams = new List<Team>()
             {
-                new Team(){Id=1, LeagueId = 1, Name = "Ferencvárosi TC"},
-                new Team(){Id=2, LeagueId = 1, Name = "Újpesti FC"},
-                new Team(){Id=3, LeagueId = 1, Name = "Kecskeméti TE"},
-                new Team(){Id=4, LeagueId = 2, Name = "Legia Warszawa"},
-                new Team(){Id=5, LeagueId = 2, Name = "Lech Poznan"},
-                new Team(){Id=6, LeagueId = 2, Name = "Cracovia"},
-                new Team(){Id=7, LeagueId = 3, Name = "FC Barcelona"},
-                new Team(){Id=8, LeagueId = 3, Name = "Real Madrid CF"},
-                new Team(){Id=9, LeagueId = 3, Name = "Valencia CF"},
+                new Team(){Id=1, LeagueId = 1, Name = "Ferencvárosi TC", HasYouthSquad= true},
+                new Team(){Id=2, LeagueId = 1, Name = "Újpesti FC",HasYouthSquad= true},
+                new Team(){Id=3, LeagueId = 1, Name = "Kecskeméti TE",HasYouthSquad= false},
+                new Team(){Id=4, LeagueId = 2, Name = "Legia Warszawa",HasYouthSquad= true},
+                new Team(){Id=5, LeagueId = 2, Name = "Lech Poznan",HasYouthSquad= false},
+                new Team(){Id=6, LeagueId = 2, Name = "Cracovia", HasYouthSquad = false},
+                new Team(){Id=7, LeagueId = 3, Name = "FC Barcelona",HasYouthSquad= true},
+                new Team(){Id=8, LeagueId = 3, Name = "Real Madrid CF",HasYouthSquad= true},
+                new Team(){Id=9, LeagueId = 3, Name = "Valencia CF",HasYouthSquad= true},
             };
             modelBuilder.Entity<Team>().HasData(teams);
             var players = new List<Player>()

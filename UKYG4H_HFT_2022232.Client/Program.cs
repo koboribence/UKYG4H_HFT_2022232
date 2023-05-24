@@ -1,9 +1,11 @@
 ﻿using ConsoleTools;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Threading;
 using UKYG4H_HFT_2022232.Client;
+using UKYG4H_HFT_2022232.Logic;
 using UKYG4H_HFT_2022232.Models;
 
 namespace UKYG4H_HFT_2022232.Client
@@ -69,7 +71,7 @@ namespace UKYG4H_HFT_2022232.Client
                 List<Player> leagues = rest.Get<Player>("player");
                 foreach (var item in leagues)
                 {
-                    Console.WriteLine(item.Name);
+                    Console.WriteLine("(" + item.Id + ")"+item.Name);
                 }
             }
             else if(entity == "Team")
@@ -77,7 +79,7 @@ namespace UKYG4H_HFT_2022232.Client
                 List<Team> leagues = rest.Get<Team>("team");
                 foreach (var item in leagues)
                 {
-                    Console.WriteLine(item.Name);
+                    Console.WriteLine("(" + item.Id + ")"+item.Name);
                 }
             }
             Console.ReadLine();
@@ -137,7 +139,47 @@ namespace UKYG4H_HFT_2022232.Client
                 rest.Delete(id, "player");
             }
         }
-
+        static void YoungerThanX(string entity)
+        {
+            Console.WriteLine("Players under age: ");
+            int age = int.Parse(Console.ReadLine());
+            var youngplayers = rest.Get<Player>("Youth/GetPlayersYoungerThanX/"+age);
+            foreach (var item in youngplayers)
+            {
+                Console.WriteLine(item.Name);
+            }
+            Console.ReadLine();
+        }
+        static void YoungSalary(string entity)
+        {
+            int x = rest.GetSingle<int>("PlusInfo/GetYoungsterSalaryInfo");
+            Console.WriteLine("U20 Players salary sum: "+x);
+            Console.ReadLine();
+        }
+        static void YoungestPlayerAge(string entity)
+        {
+            int x = rest.GetSingle<int>("PlusInfo/GetYoungestPlayerAge");
+            Console.WriteLine("The youngest player age is: "+x);
+            Console.ReadLine();
+        }
+        static void AverageSalary(string entity)
+        {
+            Console.WriteLine("Team ID: ");
+            int id = int.Parse(Console.ReadLine());
+            double x = rest.GetSingle<double>("PlusInfo/AverageSalary/"+ id);
+            Console.WriteLine(x);
+            Console.ReadKey();
+        }
+        static void YouthSquadInfo(string entity)
+        {
+            var ysi = rest.Get<YouthSquadInfo>("YouthSquadInfo/GetYSI");
+            foreach (var item in ysi)
+            {
+                Console.WriteLine("League ID: "+item.LeagueId);
+                Console.WriteLine("Youth Squad Counter: "+item.YouthSquadsInLeague);
+            }
+            Console.ReadKey();
+        }
         static void Main(string[] args)
         {
             rest = new RestService("http://localhost:43006/", "league");
@@ -146,6 +188,7 @@ namespace UKYG4H_HFT_2022232.Client
                 .Add("Create", () => Create("League"))
                 .Add("Delete", () => Delete("League"))
                 .Add("Update", () => Update("League"))
+                .Add("Youth Squad Info", () => YouthSquadInfo("League"))
                 .Add("Exit", ConsoleMenu.Close);
 
             var teamSubMenu = new ConsoleMenu(args, level: 1)
@@ -153,6 +196,7 @@ namespace UKYG4H_HFT_2022232.Client
                 .Add("Create", () => Create("Team"))
                 .Add("Delete", () => Delete("Team"))
                 .Add("Update", () => Update("Team"))
+                .Add("Average salary", () => AverageSalary("Team"))
                 .Add("Exit", ConsoleMenu.Close);
 
             var playerSubMenu = new ConsoleMenu(args, level: 1)
@@ -160,6 +204,9 @@ namespace UKYG4H_HFT_2022232.Client
                 .Add("Create", () => Create("Player"))
                 .Add("Delete", () => Delete("Player"))
                 .Add("Update", () => Update("Player"))
+                .Add("Younger than X", () => YoungerThanX("Player"))
+                .Add("Young players salary info", () => YoungSalary("Player"))
+                .Add("Youngest player age", () => YoungestPlayerAge("Player"))
                 .Add("Exit", ConsoleMenu.Close);
             var menu = new ConsoleMenu(args, level: 0)
                 .Add("Leagues", () => leagueSubMenu.Show())
