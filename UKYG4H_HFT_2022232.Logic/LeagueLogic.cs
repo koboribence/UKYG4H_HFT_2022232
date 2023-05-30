@@ -61,18 +61,6 @@ namespace UKYG4H_HFT_2022232.Logic
 
         }
     }
-    public class YouthSquadInfo
-    {
-        public YouthSquadInfo()
-        {
-        }
-        public int LeagueId { get; set; }
-        public int YouthSquadsInLeague { get; set; }
+//itt volt a YSI
 
-        public YouthSquadInfo(int id, int youthSquadsInLeague)
-        {
-            LeagueId = id;
-            YouthSquadsInLeague = youthSquadsInLeague;
-        }
-    }
 }

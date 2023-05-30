@@ -33,4 +33,19 @@ namespace UKYG4H_HFT_2022232.Models
             HasVAR = hasVAR;
         }
     }
+    public class YouthSquadInfo
+    {
+        public YouthSquadInfo()
+        {
+        }
+        public int LeagueId { get; set; }
+        public int YouthSquadsInLeague { get; set; }
+
+        public YouthSquadInfo(int id, int youthSquadsInLeague)
+        {
+            LeagueId = id;
+            YouthSquadsInLeague = youthSquadsInLeague;
+        }
+    }
+
 }
