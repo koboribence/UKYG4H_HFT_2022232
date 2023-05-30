@@ -141,7 +141,7 @@ namespace UKYG4H_HFT_2022232.Client
         {
             Console.WriteLine("Players under age: ");
             int age = int.Parse(Console.ReadLine());
-            var youngplayers = rest.Get<Player>("Youth/GetPlayersYoungerThanX/"+age);
+            IEnumerable<Player> youngplayers = rest.Get<Player>("PlusInfo/GetPlayersYoungerThanX/" + age);
             foreach (var item in youngplayers)
             {
                 Console.WriteLine(item.Name);
